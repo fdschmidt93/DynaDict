@@ -1,6 +1,10 @@
 # DynaDict
 
-DynaDict is a simple tool to induce a source-to-target language n-gram phrase table from a list of phrases and cross-lingual word embeddings. Candidate phrases are first pre-ranked by cosine similarity of (averaged) phrase word embeddings and then re-ranked with [DynaMax-Jaccard](https://github.com/babylonhealth/fuzzymax) in both directions. The dictionary then constitutes of mutual nearest neighbors for source and target phrases.
+<<<<<<< HEAD
+DynaDict is a simple tool to induce a source-to-target language n-gram phrase table from a list of phrases and cross-lingual word embeddings. Candidate phrases are first pre-ranked by cosine similarity of (averaged) phrase word embeddings and then re-ranked with [DynaMax-Jaccard](https://github.com/babylonhealth/fuzzymax) in both directions. The dictionary then constitutes inferred mutual nearest neighbors for source and target phrases.
+=======
+DynaDict is a simple tool to induce an n-gram phrase table from a list of phrases and cross-lingual word embeddings of source and target language. Candidate phrases are first pre-ranking by cosine similarity of (averaged) phrase word embeddings and then re-ranked with [DynaMax-Jaccard](https://github.com/babylonhealth/fuzzymax).
+>>>>>>> 863d129594f7cc22cccdd736db217cfab45cd06a
 
 ## Walkthrough
 1. Train word embeddings with [word2vec](https://github.com/tmikolov/word2vec) or [fastText](https://github.com/facebookresearch/fastText) for source and target language corpora
