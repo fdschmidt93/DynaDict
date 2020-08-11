@@ -1,7 +1,5 @@
 # DynaDict
 
-## Description
-
 DynaDict is a simple tool to induce an n-gram phrase table from a list of phrases and cross-lingual word embeddings of source and target language. Candidate phrases are first pre-ranking by cosine similarity of (averaged) phrase word embeddings and then re-ranked with [DynaMax-Jaccard](https://github.com/babylonhealth/fuzzymax).
 
 ## Walkthrough
